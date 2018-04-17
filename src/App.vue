@@ -2,6 +2,7 @@
   <div id="app">
     <app-header/>
     <router-view/>
+		<footer><a href="https://github.com/matthewharries/quotehub" target="_blank">Github</a></footer>
   </div>
 </template>
 
@@ -76,5 +77,9 @@
  .column {
      width: 800px;
  }
+	footer {
+		margin-top: 100px;
+		text-align: center;
+	}
 	
 </style>
